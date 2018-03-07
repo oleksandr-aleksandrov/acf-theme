@@ -1,0 +1,47 @@
+/*
+Theme Name: FDI Spotlight theme-2
+Theme URI: http://fdispotlight.com/
+Author: Bhashkar Yadav
+Author URI: 
+Description: Its specific theme for FDI Spotlight website
+Version: 1.0.0
+Text Domain: fdispotlight
+*/
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.alignleft,
+img.alignright {
+  float: none;
+  margin: 0;
+}
+
+@media screen and (min-width: 30em) {
+  /* Fix image alignment */
+  img.alignleft {
+    float: left;
+    margin-right: 1.5em;
+  }
+
+  img.alignright {
+    float: right;
+    margin-left: 1.5em;
+  }
+}
