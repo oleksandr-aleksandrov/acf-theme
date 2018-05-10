@@ -7,6 +7,7 @@
     $taxs = wp_get_post_terms(get_the_ID(), 'sector');
     $tags = wp_get_post_tags(get_the_ID());
     $categories = get_the_category(get_the_ID());
+    
     if ($taxs && $tags && $categories) {
         $taxs_ids = array();
         foreach ($taxs as $tax) $taxs_ids[] = $tax->term_id;
